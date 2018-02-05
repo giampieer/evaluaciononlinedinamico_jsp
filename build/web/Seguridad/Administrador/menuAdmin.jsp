@@ -19,7 +19,7 @@ objadBean=(AdministradorBean)request.getAttribute("admin");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#00BFA5" />
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/imagenes/logo.ico" type="image/x-icon">
-<script  src="http://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script> 
+<!--<script  src="http://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script> -->
 
   <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/dataTables.bootstrap.min.css">
@@ -361,7 +361,7 @@ INHABILITAR CHAT FIREBASE
 
 
 
-<script src="<%=request.getContextPath()%>/js/chat1.js"></script>
+<!--<script src="<%=request.getContextPath()%>/js/chat1.js"></script>-->
 </body>
 
 
