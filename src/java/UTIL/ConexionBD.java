@@ -10,7 +10,7 @@ public class ConexionBD
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            cn=DriverManager.getConnection("jdbc:mysql://localhost/evaluacionfinal", "root", "");
+            cn=DriverManager.getConnection("jdbc:mysql://35.193.181.203/db_evaluaciondinamica", "root", "root");
                 // cn=DriverManager.getConnection("jdbc:mysql://mysql30772-proye.jl.serv.net.mx/evaluacionfinal","root","MDMhxv33547");
 
 //cn=DriverManager.getConnection("jdbc:mysql://mysql30308-mariscal24.jl.serv.net.mx/evaluacionfinal","root","KKGxde78611");

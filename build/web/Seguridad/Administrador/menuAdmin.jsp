@@ -184,13 +184,15 @@ objadBean=(AdministradorBean)request.getAttribute("admin");
                     <i class="fa fa-user"></i><%=objadBean.getIdadmin()%>
                 </a>
             </li>
+<!--
+INHABILITAR CHAT FIREBASE 
 <div class="container">
       <input id="txtEmail" type="email" placeholder="Email">
       <input id="txtPassword" type="password" placeholder="Contraseña">
       <button id = "btnLogin" class="btn btn-action">Login</button>
       <button id = "btnSignUp" class="btn btn-secondary">Registrarse</button>
       <button id = "btnLogout" class="btn btn-action hide">Logout</button>
-    </div>
+    </div>-->
             <li class="nav-dropdown">
                 <a href="#" title="Tables">
                     <i class="fa fa-table"></i> Relacion
